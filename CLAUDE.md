@@ -4,51 +4,84 @@ Pay-per-call landing page for roofing services.
 
 ---
 
-## Project Status: IMAGES COMPLETE - PENDING INFRASTRUCTURE
+## Project Status: READY FOR CLOUDFLARE DEPLOYMENT
 
 **Brand Name:** Roof Repair Pros
 **Domain:** TBD (recommend roofrepairpros.com or roofrepairpros.net)
+**GitHub:** https://github.com/justingumpglobal/roof-repair-pros-landing
+**Supabase Project:** rpcoelumfrzvbwnhvmnp
 **Phone:** (888) ROOF-PRO → (888) 766-3776 (placeholder in HTML)
 **Ringba Campaign ID:** TBD (placeholder `CAMPAIGN_ID_TBD` in HTML line 1228)
 
 **Completed:**
 - ✅ Landing page HTML/CSS/JS (index.html, privacy.html, terms.html)
-- ✅ Database schema SQL file ready (5 tables, 97 rows)
+- ✅ Database deployed to Supabase (5 tables, 97 rows, RPC function)
 - ✅ Logo generated (90KB, navy & red)
 - ✅ All 17 images generated and optimized
 - ✅ Google Ads CSV template created
 - ✅ Documentation complete
+- ✅ GitHub repo created and code pushed
 
-**Blockers:**
-- ❌ Database not deployed to Supabase (SQL file ready but not executed)
+**Remaining for eLocal Submission:**
 - ❌ Domain not purchased
-- ❌ Phone number not acquired
-- ❌ Ringba campaign not created
-- ❌ Insurance logos not downloaded (7 providers)
+- ❌ Cloudflare Pages not connected to GitHub
+- ❌ Site not live
+
+**Optional (can do after launch):**
+- Insurance logos not downloaded (7 providers) - site works without them
 
 ---
 
-## Next Steps
+## Next Steps to Submit to eLocal
 
-1. **Purchase domain** (roofrepairpros.com recommended)
-2. **Get phone number** (toll-free: 833 or 844 prefix recommended)
-3. **Set up Ringba campaign** - get campaign ID
-4. **Update index.html**:
-   - Line 1228: Replace `CAMPAIGN_ID_TBD` with real Ringba campaign ID
-   - Lines 924, 975, 1189, 1203, 1224, 1240: Replace `(888) ROOF-PRO` with real phone
-5. **Deploy database**:
-   - Open Supabase project (rpcoelumfrzvbwnhvmnp)
-   - Execute `.claude/plans/roofing-database-setup.sql`
-   - Verify RPC function `get_roofing_content()` works
-6. **Download insurance logos** (optional - can launch without):
-   - State Farm, Allstate, USAA, Liberty Mutual, Farmers, Nationwide, Travelers
-   - Save as PNG to `assets/images/insurance/`
-7. **Create GitHub repo** - for deployment
-8. **Connect Cloudflare Pages** - auto-deploy from GitHub
-9. **Test dynamic content** - verify `?service=` parameter works after database is live
-10. **Mobile test** - real devices (iOS Safari, Android Chrome)
-11. **Generate Google Ads CSV** - create `combined_upload.csv` with all 18 services
-12. **Set up Google Ads** - create campaigns, upload CSV
+### 1. ✅ Deploy Database (COMPLETE)
+Database successfully deployed to Supabase (rpcoelumfrzvbwnhvmnp):
+- 5 tables created
+- 97 rows inserted
+- RPC function `get_roofing_content()` verified working
+
+### 2. Purchase Domain
+- Recommended: roofrepairpros.com
+- Provider: Namecheap, Cloudflare, or your preferred registrar
+
+### 3. Connect Cloudflare Pages (You Do This)
+1. Go to Cloudflare Pages dashboard
+2. Click "Create a project" → "Connect to Git"
+3. Select repo: `justingumpglobal/roof-repair-pros-landing`
+4. Build settings:
+   - Framework preset: None
+   - Build command: (leave empty)
+   - Build output directory: `/`
+5. Click "Save and Deploy"
+
+### 4. Connect Domain (You Do This)
+1. In Cloudflare Pages project settings
+2. Go to "Custom domains"
+3. Add your domain (roofrepairpros.com)
+4. Update DNS records as instructed
+
+### 5. Test Site
+- Visit your domain
+- Test a service URL: `?service=emergency-roof-repair`
+- Verify dynamic content loads
+- Test on mobile
+
+### 6. Submit to eLocal
+- Site is now live → submit for compliance review
+- eLocal will provide phone number after approval
+- Example from Dentist site: (484) 666-3244
+
+### 7. After eLocal Approval
+- Set up Ringba campaign (route to eLocal number)
+- Update index.html line 1228 with Ringba campaign ID
+- Update phone numbers (lines 924, 975, 1189, 1203, 1224, 1240)
+- Push changes to GitHub (auto-deploys)
+
+### 8. Google Ads Setup
+- Generate combined CSV (18 services × 19 rows = 342 rows)
+- Create Google Ads account under Bryan
+- Upload CSV
+- Add image assets manually
 
 ---
 
