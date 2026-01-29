@@ -411,6 +411,15 @@ If editing existing campaigns:
 
 ## Recent Changes
 
+### 2026-01-29 (Late Evening)
+- **Site LIVE:** Deployed at https://roofing-service-experts.com
+- **eLocal compliance changes:** Removed insurance, testimonials, guarantees
+- **Brand renamed:** "Roof Repair Pros" → "Roofing Service Experts"
+- **New logo generated:** "ROOFING SERVICE EXPERTS" branding (111KB PNG)
+- **Google Ads CSV generated:** `ad-exports/combined_upload.csv` (342 rows, 18 services)
+- **eLocal compliance submitted:** Ad mockup submitted for review
+- **Status:** Waiting on eLocal approval + phone number
+
 ### 2026-01-29 (Evening)
 - **Images generated:** All 17 images created using Gemini API
   - Logo: 90KB (trimmed, transparent background)
@@ -419,7 +428,8 @@ If editing existing campaigns:
   - Service images (6): 53-87KB each (under 80KB target)
   - Background: 262KB (slightly over 150KB target but acceptable)
 - **CSV documentation updated:** Clarified that projects use ONE combined CSV (not separate CSVs per ad group)
-- **Status:** Images complete, ready for domain/Ringba/database setup
+- **Database deployed:** 5 tables (97 rows) + RPC function to Supabase
+- **GitHub repo created:** https://github.com/justingumpglobal/roof-repair-pros-landing
 
 ### 2026-01-29 (Afternoon)
 - **Project created:** Complete roofing landing page implementation
