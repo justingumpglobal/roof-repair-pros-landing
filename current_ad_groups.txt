@@ -1,0 +1,19 @@
+# Roofing Ad Groups Tracker
+# Format: [service-slug] | [Ad Group Name] | [Date Created]
+#
+# Total Ad Groups: 0
+#
+# Instructions:
+# - Add one line per ad group created
+# - Keep alphabetically sorted by service slug
+# - Update total count when adding/removing
+#
+# Emergency Services (0):
+#
+# General Repair (0):
+#
+# Material-Specific Repair (0):
+#
+# Replacement Services (0):
+#
+# Inspection & Maintenance (0):

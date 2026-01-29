@@ -1,0 +1,25 @@
+Campaign,Ad Group,Ad type,Labels,Headline 1,Headline 1 position,Headline 2,Headline 2 position,Headline 3,Headline 3 position,Headline 4,Headline 4 position,Description 1,Description 1 position,Description 2,Description 2 position,Description 3,Description 3 position,Description 4,Description 4 position,Path 1,Path 2,Final URL,Link Text,Description Line 1,Description Line 2,Callout text,Header,Snippet Values,Keyword
+[DOMAIN] | [DATE],[AD_GROUP],Responsive search ad,Ad 1,[HEADLINE_1], -,[HEADLINE_2], -,[HEADLINE_3], -,[HEADLINE_4], -,[DESC_1], -,[DESC_2], -,[DESC_3], -,[DESC_4], -,,,https://[DOMAIN]/?service=[SERVICE_SLUG],,,,,,,
+[DOMAIN] | [DATE],[AD_GROUP],Responsive search ad,Ad 2,{LOCATION(City):Local} [SHORT_SERVICE],1,Same Day Service - Call Now,2,[HEADLINE_3], -,[HEADLINE_4], -,[DESC_1], -,[DESC_2], -,[DESC_3], -,[DESC_4], -,,,https://[DOMAIN]/?service=[SERVICE_SLUG],,,,,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,https://[DOMAIN]/?service=[SERVICE_SLUG]&sl=1,Same Day Service,Fast Response Times,We Come To You Today,,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,https://[DOMAIN]/?service=[SERVICE_SLUG]&sl=2,Insurance Billing,We Work With Insurance,Claims Help Included,,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,https://[DOMAIN]/?service=[SERVICE_SLUG]&sl=3,Free Inspections,No-Cost Roof Inspection,Get Expert Assessment,,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,https://[DOMAIN]/?service=[SERVICE_SLUG]&sl=4,Licensed & Insured,Professional Roofers,Satisfaction Guaranteed,,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,https://[DOMAIN]/?service=[SERVICE_SLUG]&sl=5,Why Choose Us,25+ Years Experience,Local Roofing Experts,,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,https://[DOMAIN]/?service=emergency-roof-repair,Emergency Repairs,24/7 Emergency Service,Storm Damage Response,,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,https://[DOMAIN]/?service=roof-replacement,Roof Replacement,New Roof Installation,All Materials Available,,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,,,,,24/7 Emergency,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,,,,,Same Day Service,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,,,,,Insurance Billing,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,,,,,Licensed & Insured,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,,,,,Free Inspections,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,,,,,25+ Years Experience,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,,,,,Local Experts,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,,,,,Satisfaction Guaranteed,,,
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,,,,,,Services,"[SNIPPET_1]
+[SNIPPET_2]
+[SNIPPET_3]
+[SNIPPET_4]
+[SNIPPET_5]
+[SNIPPET_6]",
+[DOMAIN] | [DATE],[AD_GROUP],,,,,,,,,,,,,,,,,,,,,,,,,,,,[KEYWORD]
