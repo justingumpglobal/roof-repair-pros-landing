@@ -36,6 +36,20 @@ Pay-per-call landing page for roofing services.
 
 ---
 
+## eLocal Compliance Submission
+
+**Mockup Generator:** https://andrew.marketing/ad-preview-tool/
+
+**Ad Copy for Mockup:**
+- **Headline 1:** 24/7 Emergency Roof Repair (27 chars)
+- **Headline 2:** Storm Damage? Call Now (22 chars)
+- **Description 1:** Emergency Roof Repairs 24/7. Storm Damage, Leaks, Tarps. Licensed & Insured. Call Now! (88 chars)
+- **Description 2:** Don't Wait - Call Now For Emergency Roof Repair. 24/7 Service. Licensed Professionals! (88 chars)
+- **Business Name:** Roofing Service Experts
+- **URL:** roofing-service-experts.com
+
+---
+
 ## Next Steps
 
 ### 1. ✅ Deploy Database (COMPLETE)
