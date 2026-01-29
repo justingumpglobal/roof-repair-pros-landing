@@ -4,10 +4,10 @@ Pay-per-call landing page for roofing services.
 
 ---
 
-## Project Status: READY FOR CLOUDFLARE DEPLOYMENT
+## Project Status: LIVE - READY FOR ELOCAL SUBMISSION
 
-**Brand Name:** Roof Repair Pros
-**Domain:** TBD (recommend roofrepairpros.com or roofrepairpros.net)
+**Brand Name:** Roofing Service Experts
+**Domain:** roofing-service-experts.com (LIVE)
 **GitHub:** https://github.com/justingumpglobal/roof-repair-pros-landing
 **Supabase Project:** rpcoelumfrzvbwnhvmnp
 **Phone:** (888) ROOF-PRO → (888) 766-3776 (placeholder in HTML)
@@ -16,23 +16,27 @@ Pay-per-call landing page for roofing services.
 **Completed:**
 - ✅ Landing page HTML/CSS/JS (index.html, privacy.html, terms.html)
 - ✅ Database deployed to Supabase (5 tables, 97 rows, RPC function)
-- ✅ Logo generated (90KB, navy & red)
+- ✅ Logo generated with "Roofing Service Experts" branding
 - ✅ All 17 images generated and optimized
-- ✅ Google Ads CSV template created
+- ✅ Combined Google Ads CSV generated (342 rows, 18 services)
 - ✅ Documentation complete
 - ✅ GitHub repo created and code pushed
+- ✅ Site LIVE at roofing-service-experts.com
+- ✅ eLocal compliance changes applied (no insurance, no testimonials, no guarantees)
 
-**Remaining for eLocal Submission:**
-- ❌ Domain not purchased
-- ❌ Cloudflare Pages not connected to GitHub
-- ❌ Site not live
+**Next:**
+- ⏳ Submit to eLocal for compliance review
+- ⏳ Receive phone number from eLocal
+- ⏳ Set up Ringba campaign (route to eLocal number)
+- ⏳ Update site with Ringba number and campaign ID
+- ⏳ Set up Google Ads account
 
 **Optional (can do after launch):**
 - Insurance logos not downloaded (7 providers) - site works without them
 
 ---
 
-## Next Steps to Submit to eLocal
+## Next Steps
 
 ### 1. ✅ Deploy Database (COMPLETE)
 Database successfully deployed to Supabase (rpcoelumfrzvbwnhvmnp):
@@ -40,48 +44,29 @@ Database successfully deployed to Supabase (rpcoelumfrzvbwnhvmnp):
 - 97 rows inserted
 - RPC function `get_roofing_content()` verified working
 
-### 2. Purchase Domain
-- Recommended: roofrepairpros.com
-- Provider: Namecheap, Cloudflare, or your preferred registrar
+### 2. ✅ Site Live (COMPLETE)
+Site deployed and live at roofing-service-experts.com
 
-### 3. Connect Cloudflare Pages (You Do This)
-1. Go to Cloudflare Pages dashboard
-2. Click "Create a project" → "Connect to Git"
-3. Select repo: `justingumpglobal/roof-repair-pros-landing`
-4. Build settings:
-   - Framework preset: None
-   - Build command: (leave empty)
-   - Build output directory: `/`
-5. Click "Save and Deploy"
-
-### 4. Connect Domain (You Do This)
-1. In Cloudflare Pages project settings
-2. Go to "Custom domains"
-3. Add your domain (roofrepairpros.com)
-4. Update DNS records as instructed
-
-### 5. Test Site
-- Visit your domain
-- Test a service URL: `?service=emergency-roof-repair`
-- Verify dynamic content loads
-- Test on mobile
-
-### 6. Submit to eLocal
-- Site is now live → submit for compliance review
+### 3. Submit to eLocal
+- Site is LIVE and COMPLIANT → submit for compliance review now
+- Wait for eLocal approval
 - eLocal will provide phone number after approval
 - Example from Dentist site: (484) 666-3244
 
-### 7. After eLocal Approval
-- Set up Ringba campaign (route to eLocal number)
-- Update index.html line 1228 with Ringba campaign ID
-- Update phone numbers (lines 924, 975, 1189, 1203, 1224, 1240)
-- Push changes to GitHub (auto-deploys)
+### 4. After eLocal Approval
+1. **Set up Ringba campaign** - Route calls to eLocal number
+2. **Get Ringba tracking number** - Display on site
+3. **Update index.html**:
+   - Line 1228: Replace `CAMPAIGN_ID_TBD` with real Ringba campaign ID
+   - Lines 924, 975, 1189, 1203, 1224, 1240: Replace `(888) ROOF-PRO` with Ringba number
+4. **Push changes** - GitHub auto-deploys to Cloudflare Pages
 
-### 8. Google Ads Setup
-- Generate combined CSV (18 services × 19 rows = 342 rows)
-- Create Google Ads account under Bryan
-- Upload CSV
-- Add image assets manually
+### 5. Google Ads Setup
+1. Create Google Ads account under Bryan
+2. Upload `ad-exports/combined_upload.csv` (342 rows ready)
+3. Before uploading: Replace `[DATE]` with campaign date (e.g., `01/29/26`)
+4. Manually add image assets (17 images in `assets/images/`)
+5. Set up conversion tracking for phone calls
 
 ---
 
